@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RotationViewGroup">
+        <attr name="radius" format="dimension"/>
+        <!--下边距距离-->
+        <attr name="bottom_padding" format="dimension"/>
+    </declare-styleable>
+
+</resources>

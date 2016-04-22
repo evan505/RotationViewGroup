@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:RotationViewGroup="http://schemas.android.com/apk/res-auto"
+
+    tools:context="com.ebeijia.rotationanimation.MainActivity">
+
+    <com.ebeijia.rotationanimation.widget.RotationViewGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        RotationViewGroup:bottom_padding="40dp"
+        RotationViewGroup:radius="140dp">
+        <ImageView
+            android:src="@mipmap/icon_bottled"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <ImageView
+            android:src="@mipmap/icon_breakfast"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <ImageView
+            android:src="@mipmap/icon_community"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <ImageView
+            android:src="@mipmap/icon_electricity"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <ImageView
+            android:src="@mipmap/icon_activity"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <ImageView
+            android:src="@mipmap/icon_add"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+    </com.ebeijia.rotationanimation.widget.RotationViewGroup>
+</RelativeLayout>
